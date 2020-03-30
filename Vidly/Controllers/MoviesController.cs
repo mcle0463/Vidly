@@ -32,7 +32,7 @@ namespace Vidly.Controllers
                 sortBy = "Name";
             return Content(String.Format("pageIndex = {0}, sortBy = {1}", pageIndex, sortBy));
         }
-        [Route("movies/released/{year}/{month:regex(\\d{4}):range(range(1,12))}")]
+        [Route("movies/released/{year}/{month}")]
         public ActionResult ByReleaseYear(int year, int month)
         {
             return Content(year + "/" + month);
