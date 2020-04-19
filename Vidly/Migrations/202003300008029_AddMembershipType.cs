@@ -15,6 +15,7 @@
                         SignUpFee = c.Short(nullable: false),
                         DurationInMonths = c.Byte(nullable: false),
                         DiscountRate = c.Byte(nullable: false),
+                        Name = c.String()
                     })
                 .PrimaryKey(t => t.Id);
             
