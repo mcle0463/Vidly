@@ -195,6 +195,10 @@
     <Compile Include="Migrations\202004072253593_AddGenreReferenceData.designer.cs">
       <DependentUpon>202004072253593_AddGenreReferenceData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004191914575_mymig.cs" />
+    <Compile Include="Migrations\202004191914575_mymig.designer.cs">
+      <DependentUpon>202004191914575_mymig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -295,6 +299,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004072253593_AddGenreReferenceData.resx">
       <DependentUpon>202004072253593_AddGenreReferenceData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004191914575_mymig.resx">
+      <DependentUpon>202004191914575_mymig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
